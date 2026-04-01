@@ -11,6 +11,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: "https://live-chat-three-chi.vercel.app",
+    methods: ["GET", "POST"],
   },
 });
 
