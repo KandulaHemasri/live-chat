@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://live-chat-henna.vercel.app/",
+    origin: "https://live-chat-three-chi.vercel.app",
   },
 });
 
